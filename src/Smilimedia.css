@@ -1,0 +1,95 @@
+.Smilimedia-container {
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.Smilimedia-container .Smilimedia-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Smilimedia-container .Smilimedia-left h6 {
+  font-size: 1rem;
+}
+
+.Smilimedia-container .Smilimedia-left h2 {
+  font-size: 2rem;
+  margin-top: 16px;
+}
+
+.Smilimedia-container .Smilimedia-left p {
+  font-size: 0.9rem;
+  padding-top: 16px;
+  max-width: 90%;
+}
+
+.Smilimedia-container .Smilimedia-left .btn {
+  padding: 40px 0;
+}
+
+.Smilimedia-container .Smilimedia-left button {
+  padding: 12px 24px;
+  font-size: 0.85rem;
+  border: 1px solid rgb(59 62 58);
+  border-radius: 9999px;
+  cursor: pointer;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.Smilimedia-container .Smilimedia-left button:hover {
+  background: rgb(59 62 58);
+  color: white;
+}
+
+.Smilimedia-container img {
+  border: 2px solid rgb(26, 26, 26);
+  border-radius: 1.5rem;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  overflow: hidden;
+}
+
+@media (min-width: 700px) {
+  .Smilimedia-container {
+    flex-direction: row;
+    gap: 5rem;
+    padding-top: 8rem;
+    text-align: left;
+  }
+
+  .Smilimedia-container .Smilimedia-left {
+    align-items: flex-start;
+  }
+
+  .Smilimedia-container .Smilimedia-left h2 {
+    font-size: 2.5rem;
+  }
+
+  .Smilimedia-container img {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Smilimedia-container {
+    gap: 10rem;
+    padding-top: 12rem;
+  }
+
+  .Smilimedia-container .Smilimedia-left h2 {
+    font-size: 2.95rem;
+  }
+
+  .Smilimedia-container img {
+    max-width: 576px;
+  }
+}

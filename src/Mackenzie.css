@@ -1,0 +1,96 @@
+.Mackenzie-container {
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.Mackenzie-container .Mackenzie-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Mackenzie-container .Mackenzie-left h6 {
+  font-size: 1rem;
+  color: rgb(32 145 251);
+}
+
+.Mackenzie-container .Mackenzie-left h2 {
+  font-size: 2rem;
+  margin-top: 16px;
+}
+
+.Mackenzie-container .Mackenzie-left p {
+  font-size: 0.9rem;
+  padding-top: 16px;
+  max-width: 90%;
+}
+
+.Mackenzie-container .Mackenzie-left .btn {
+  padding: 40px 0;
+}
+
+.Mackenzie-container .Mackenzie-left button {
+  padding: 12px 24px;
+  font-size: 0.85rem;
+  border: 1px solid rgb(32 145 251);
+  border-radius: 9999px;
+  cursor: pointer;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.Mackenzie-container .Mackenzie-left button:hover {
+  background: rgb(32 145 251);
+  color: white;
+}
+
+.Mackenzie-container img {
+  border: 2px solid rgb(26, 26, 26);
+  border-radius: 1.5rem;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  overflow: hidden;
+}
+
+@media (min-width: 700px) {
+  .Mackenzie-container {
+    flex-direction: row;
+    gap: 5rem;
+    padding-top: 8rem;
+    text-align: left;
+  }
+
+  .Mackenzie-container .Mackenzie-left {
+    align-items: flex-start;
+  }
+
+  .Mackenzie-container .Mackenzie-left h2 {
+    font-size: 2.5rem;
+  }
+
+  .Mackenzie-container img {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Mackenzie-container {
+    gap: 10rem;
+    padding-top: 12rem;
+  }
+
+  .Mackenzie-container .Mackenzie-left h2 {
+    font-size: 2.95rem;
+  }
+
+  .Mackenzie-container img {
+    max-width: 576px;
+  }
+}

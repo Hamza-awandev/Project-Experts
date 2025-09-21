@@ -1,0 +1,132 @@
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  padding-top: 24rem;
+  max-width: 1380px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  gap: 2rem;
+}
+
+.work .work-heading {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  flex-basis: 50%;
+}
+
+.work h2 {
+  font-size: 2.95rem;
+  font-weight: 500;
+  line-height: 1.15;
+  --tw-text-opacity: 1;
+  color: rgb(26 26 26);
+  text-align: center;
+}
+
+.work .work-card {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-basis: 50%;
+}
+
+.work .work-card .card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 350px;
+  height: 320px;
+  padding: 35px 40px;
+  border-radius: 8mm;
+  gap: 2rem;
+  background-color: #fff;
+  box-shadow: 0 3px 30px 0 #00000012;
+}
+
+.work .work-card .card h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.work .work-card .card p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #6e6e73;
+}
+
+@media (max-width: 1200px) {
+  .work h2 {
+    font-size: 2.5rem;
+  }
+  .work .work-card .card {
+    width: 300px;
+    height: auto;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 760px) {
+  .work {
+    flex-direction: column;
+    padding-top: 12rem;
+    height: 100vh;
+  }
+  .work .work-heading {
+    position: relative;
+    height: auto;
+    flex-basis: auto;
+    margin-bottom: 2rem;
+  }
+  .work .work-card {
+    height: auto;
+    flex-basis: auto;
+  }
+  .work h2 {
+    font-size: 2rem;
+  }
+  .work .work-card .card {
+    width: 100%;
+    max-width: 400px;
+    padding: 25px;
+  }
+  .work .work-card .card h3 {
+    font-size: 22px;
+  }
+  .work .work-card .card p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .work {
+    padding-top: 8rem;
+    height: 100vh;
+  }
+  .work h2 {
+    font-size: 1.8rem;
+  }
+  .work .work-card .card {
+    width: 100%;
+    padding: 20px;
+    gap: 1.5rem;
+  }
+  .work .work-card .card h3 {
+    font-size: 20px;
+  }
+  .work .work-card .card p {
+    font-size: 15px;
+  }
+}

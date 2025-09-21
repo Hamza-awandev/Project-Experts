@@ -1,0 +1,77 @@
+.aboutus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 1rem;
+}
+
+.aboutus h6 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(206 171 171 / var(--tw-text-opacity));
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.aboutus h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(26 26 26 / var(--tw-text-opacity));
+}
+
+.aboutus .aboutbtn {
+  padding: 40px;
+}
+
+.aboutus button {
+  border: 1px solid rgb(231 200 200);
+  font-size: 0.85rem;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 27px;
+  padding-right: 27px;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .aboutus h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .aboutus h6 {
+    font-size: 1.2rem;
+  }
+  .aboutus h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutus h6 {
+    font-size: 1rem;
+  }
+  .aboutus h2 {
+    font-size: 1.5rem;
+  }
+  .aboutus .aboutbtn {
+    padding: 20px;
+  }
+  .aboutus button {
+    font-size: 0.75rem;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

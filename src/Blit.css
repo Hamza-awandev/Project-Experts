@@ -1,0 +1,96 @@
+.Blit-container {
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.Blit-container .Blit-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Blit-container .Blit-left h6 {
+  font-size: 1rem;
+  color: rgb(127 86 217);
+}
+
+.Blit-container .Blit-left h2 {
+  font-size: 2rem;
+  margin-top: 16px;
+}
+
+.Blit-container .Blit-left p {
+  font-size: 0.9rem;
+  padding-top: 16px;
+  max-width: 90%;
+}
+
+.Blit-container .Blit-left .btn {
+  padding: 40px 0;
+}
+
+.Blit-container .Blit-left button {
+  padding: 12px 24px;
+  font-size: 0.85rem;
+  border: 1px solid rgb(127 86 217);
+  border-radius: 9999px;
+  cursor: pointer;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.Blit-container .Blit-left button:hover {
+  background: rgb(127 86 217);
+  color: white;
+}
+
+.Blit-container img {
+  border: 2px solid rgb(26, 26, 26);
+  border-radius: 1.5rem;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  overflow: hidden;
+}
+
+@media (min-width: 700px) {
+  .Blit-container {
+    flex-direction: row;
+    gap: 5rem;
+    padding-top: 8rem;
+    text-align: left;
+  }
+
+  .Blit-container .Blit-left {
+    align-items: flex-start;
+  }
+
+  .Blit-container .Blit-left h2 {
+    font-size: 2.5rem;
+  }
+
+  .Blit-container img {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Blit-container {
+    gap: 10rem;
+    padding-top: 12rem;
+  }
+
+  .Blit-container .Blit-left h2 {
+    font-size: 2.95rem;
+  }
+
+  .Blit-container img {
+    max-width: 576px;
+  }
+}
